@@ -1,0 +1,315 @@
+STUXNET-Type Experiment
+Snapshot Captured States
+
+
+
+## SNAPSHOT 0
+
+### Loaded Modules: 18
+### Size of Executable: 159KB
+### Full Snapshot Size: 27.981MB
+### Call Stack Size: 15
+### Heap Size: A0000B
+
+### Call Stack
+
+    Child-SP                          Call Site
+00 016aee28 000007fe`fcd63d38     ntdll!NtWaitForSingleObject
+01 016aee30 000007fe`fcd71f96     mswsock!SockWaitForSingleObject
+02 016aeeb0 000007fe`ff664efc     mswsock!_GSHandlerCheck_SEH
+03 016af050 000007fe`ff664e7d     ws2_32!DPROVIDER::WSPSelect
+04 016af090 00000001`3f10b259     ws2_32!select
+05 016af190 00000001`3f10b420     myscadacom!OS_DoIo
+06 016af410 00000001`3f10954b     myscadacom!OS_Accept
+07 016af440 00000001`3f04369b     myscadacom!FCGX_Accept_r
+08 016af480 00000001`3f0d10cc     myscadacom
+09 016af880 00000001`3f121456     myscadacom
+0a 016af8b0 000007fe`f9883fef     myscadacom!OS_SetFlags
+0b 016af980 000007fe`f9884196     msvcr110!beginthreadex
+0c 016af9b0 773d652d     msvcr110!endthreadex
+0d 016af9e0 7760c521     kernel32!BaseThreadInitThunk
+0e 016afa10 00000000     ntdll!RtlUserThreadStart
+
+### CPU State
+rax=39d000 rbx=16aefb0 rcx=39d000
+rdx=100000 rsi=1cc rdi=16af1e0
+rip=7763135a rsp=16aee28 rbp=1
+iopl=0         nv up ei pl zr na po nc
+cs=33  ss=2b  ds=2b  es=2b  fs=53  gs=2b             efl=246
+
+
+## SNAPSHOT 1
+
+### Loaded Modules: 18
+### Size of Executable: 159KB
+### Full Snapshot Size: 27.937MB
+### Call Stack Size: 15
+### Heap Size: A0000B
+
+### Call Stack
+ Child-SP          RetAddr               Call Site
+00 016aee28 000007fe`fcd71e35     ntdll!NtWaitForSingleObject
+01 016aee30 000007fe`fcd71f96     mswsock!_GSHandlerCheck_SEH
+02 016aeeb0 000007fe`ff664efc     mswsock!_GSHandlerCheck_SEH
+03 016af050 000007fe`ff664e7d     ws2_32!DPROVIDER::WSPSelect
+04 016af090 00000001`3f10b259     ws2_32!select
+05 016af190 00000001`3f10b420     myscadacom!OS_DoIo
+06 016af410 00000001`3f10954b     myscadacom!OS_Accept
+07 016af440 00000001`3f04369b     myscadacom!FCGX_Accept_r
+08 016af480 00000001`3f0d10cc     myscadacom
+09 016af880 00000001`3f121456     myscadacom
+0a 016af8b0 000007fe`f9883fef     myscadacom!OS_SetFlags
+0b 016af980 000007fe`f9884196     msvcr110!beginthreadex
+0c 016af9b0 773d652d     msvcr110!endthreadex
+0d 016af9e0 7760c521     kernel32!BaseThreadInitThunk
+0e 016afa10 00000000     ntdll!RtlUserThreadStart
+
+### CPU State
+rax=7fffffd5000 rbx=7fffffffffffffff rcx=7763135a
+rdx=0 rsi=1cc rdi=0
+rip=7763135a rsp=16aee28 rbp=0
+iopl=0         nv up ei ng nz ac po cy
+cs=33  ss=2b  ds=2b  es=2b  fs=53  gs=2b             efl=297
+
+
+## SNAPSHOT 2
+
+### Loaded Modules: 18
+### Size of Executable: 159KB
+### Full Snapshot Size: 27.981MB
+### Call Stack Size: 15
+### Heap Size: A0000B
+
+### Call Stack
+ Child-SP          RetAddr               Call Site
+00 016aee28 000007fe`fcd71e35     ntdll!NtWaitForSingleObject
+01 016aee30 000007fe`fcd71f96     mswsock!_GSHandlerCheck_SEH
+02 016aeeb0 000007fe`ff664efc     mswsock!_GSHandlerCheck_SEH
+03 016af050 000007fe`ff664e7d     ws2_32!DPROVIDER::WSPSelect
+04 016af090 00000001`3f10b259     ws2_32!select
+05 016af190 00000001`3f10b420     myscadacom!OS_DoIo
+06 016af410 00000001`3f10954b     myscadacom!OS_Accept
+07 016af440 00000001`3f04369b     myscadacom!FCGX_Accept_r
+08 016af480 00000001`3f0d10cc     myscadacom
+09 016af880 00000001`3f121456     myscadacom
+0a 016af8b0 000007fe`f9883fef     myscadacom!OS_SetFlags
+0b 016af980 000007fe`f9884196     msvcr110!beginthreadex
+0c 016af9b0 773d652d     msvcr110!endthreadex
+0d 016af9e0 7760c521     kernel32!BaseThreadInitThunk
+0e 016afa10 00000000     ntdll!RtlUserThreadStart
+
+### CPU State
+rax=38e3c0 rbx=7fffffffffffffff rcx=38
+rdx=fffffffffffe6388 rsi=1cc rdi=0
+rip=7763135a rsp=16aee28 rbp=0
+iopl=0         nv up ei ng nz ac po cy
+cs=33  ss=2b  ds=2b  es=2b  fs=53  gs=2b             efl=297
+
+
+
+## SNAPSHOT 3
+
+### Loaded Modules: 18
+### Size of Executable: 159KB
+### Full Snapshot Size: 27.981MB
+### Call Stack Size: 15
+### Heap Size: A0000B
+
+### Call Stack
+ Child-SP          RetAddr               Call Site
+00 016aee28 000007fe`fcd63d38     ntdll!NtWaitForSingleObject
+01 016aee30 000007fe`fcd71f96     mswsock!SockWaitForSingleObject
+02 016aeeb0 000007fe`ff664efc     mswsock!_GSHandlerCheck_SEH
+03 016af050 000007fe`ff664e7d     ws2_32!DPROVIDER::WSPSelect
+04 016af090 00000001`3f10b259     ws2_32!select
+05 016af190 00000001`3f10b420     myscadacom!OS_DoIo
+06 016af410 00000001`3f10954b     myscadacom!OS_Accept
+07 016af440 00000001`3f04369b     myscadacom!FCGX_Accept_r
+08 016af480 00000001`3f0d10cc     myscadacom
+09 016af880 00000001`3f121456     myscadacom
+0a 016af8b0 000007fe`f9883fef     myscadacom!OS_SetFlags
+0b 016af980 000007fe`f9884196     msvcr110!beginthreadex
+0c 016af9b0 773d652d     msvcr110!endthreadex
+0d 016af9e0 7760c521     kernel32!BaseThreadInitThunk
+0e 016afa10 00000000     ntdll!RtlUserThreadStart
+
+### CPU State
+rax=38e3c0 rbx=16aefb0 rcx=38
+rdx=fffffffffffe6388 rsi=1cc rdi=16af1e0
+rip=7763135a rsp=16aee28 rbp=1
+iopl=0         nv up ei pl zr na po nc
+cs=33  ss=2b  ds=2b  es=2b  fs=53  gs=2b             efl=246
+
+
+
+## SNAPSHOT 4
+
+### Loaded Modules: 18
+### Size of Executable: 159KB
+### Full Snapshot Size: 27.981MB
+### Call Stack Size: 15
+### Heap Size: A0000B
+
+### Call Stack
+ Child-SP          RetAddr               Call Site
+00 016aee28 000007fe`fcd63d38     ntdll!NtWaitForSingleObject
+01 016aee30 000007fe`fcd71f96     mswsock!SockWaitForSingleObject
+02 016aeeb0 000007fe`ff664efc     mswsock!_GSHandlerCheck_SEH
+03 016af050 000007fe`ff664e7d     ws2_32!DPROVIDER::WSPSelect
+04 016af090 00000001`3f10b259     ws2_32!select
+05 016af190 00000001`3f10b420     myscadacom!OS_DoIo
+06 016af410 00000001`3f10954b     myscadacom!OS_Accept
+07 016af440 00000001`3f04369b     myscadacom!FCGX_Accept_r
+08 016af480 00000001`3f0d10cc     myscadacom
+09 016af880 00000001`3f121456     myscadacom
+0a 016af8b0 000007fe`f9883fef     myscadacom!OS_SetFlags
+0b 016af980 000007fe`f9884196     msvcr110!beginthreadex
+0c 016af9b0 773d652d     msvcr110!endthreadex
+0d 016af9e0 7760c521     kernel32!BaseThreadInitThunk
+0e 016afa10 00000000     ntdll!RtlUserThreadStart
+
+### CPU State
+rax=38e3c0 rbx=16aefb0 rcx=38
+rdx=fffffffffffe6388 rsi=1cc rdi=16af1e0
+rip=7763135a rsp=16aee28 rbp=1
+iopl=0         nv up ei pl zr na po nc
+cs=33  ss=2b  ds=2b  es=2b  fs=53  gs=2b             efl=246
+
+
+
+## SNAPSHOT 5
+
+### Loaded Modules: 18
+### Size of Executable: 159KB
+### Full Snapshot Size: 27.981MB
+### Call Stack Size: 15
+### Heap Size: A0000B
+
+### Call Stack
+ Child-SP          RetAddr               Call Site
+00 016aee28 000007fe`fcd71e35     ntdll!NtWaitForSingleObject
+01 016aee30 000007fe`fcd71f96     mswsock!_GSHandlerCheck_SEH
+02 016aeeb0 000007fe`ff664efc     mswsock!_GSHandlerCheck_SEH
+03 016af050 000007fe`ff664e7d     ws2_32!DPROVIDER::WSPSelect
+04 016af090 00000001`3f10b259     ws2_32!select
+05 016af190 00000001`3f10b420     myscadacom!OS_DoIo
+06 016af410 00000001`3f10954b     myscadacom!OS_Accept
+07 016af440 00000001`3f04369b     myscadacom!FCGX_Accept_r
+08 016af480 00000001`3f0d10cc     myscadacom
+09 016af880 00000001`3f121456     myscadacom
+0a 016af8b0 000007fe`f9883fef     myscadacom!OS_SetFlags
+0b 016af980 000007fe`f9884196     msvcr110!beginthreadex
+0c 016af9b0 773d652d     msvcr110!endthreadex
+0d 016af9e0 7760c521     kernel32!BaseThreadInitThunk
+0e 016afa10 00000000     ntdll!RtlUserThreadStart
+
+### CPU State
+rax=38e3c0 rbx=7fffffffffffffff rcx=38
+rdx=fffffffffffe6388 rsi=1cc rdi=0
+rip=7763135a rsp=16aee28 rbp=0
+iopl=0         nv up ei ng nz ac pe cy
+cs=33  ss=2b  ds=2b  es=2b  fs=53  gs=2b             efl=293
+
+
+
+## SNAPSHOT 6
+
+### Loaded Modules: 18
+### Size of Executable: 159KB
+### Full Snapshot Size: 27.981MB
+### Call Stack Size: 15
+### Heap Size: A0000B
+
+### Call Stack
+ Child-SP          RetAddr               Call Site
+00 016aee28 000007fe`fcd63d38     ntdll!NtWaitForSingleObject
+01 016aee30 000007fe`fcd71f96     mswsock!SockWaitForSingleObject
+02 016aeeb0 000007fe`ff664efc     mswsock!_GSHandlerCheck_SEH
+03 016af050 000007fe`ff664e7d     ws2_32!DPROVIDER::WSPSelect
+04 016af090 00000001`3f10b259     ws2_32!select
+05 016af190 00000001`3f10b420     myscadacom!OS_DoIo
+06 016af410 00000001`3f10954b     myscadacom!OS_Accept
+07 016af440 00000001`3f04369b     myscadacom!FCGX_Accept_r
+08 016af480 00000001`3f0d10cc     myscadacom
+09 016af880 00000001`3f121456     myscadacom
+0a 016af8b0 000007fe`f9883fef     myscadacom!OS_SetFlags
+0b 016af980 000007fe`f9884196     msvcr110!beginthreadex
+0c 016af9b0 773d652d     msvcr110!endthreadex
+0d 016af9e0 7760c521     kernel32!BaseThreadInitThunk
+0e 016afa10 00000000     ntdll!RtlUserThreadStart
+
+### CPU State
+rax=39d0b0 rbx=16aefb0 rcx=38
+rdx=ffffffffffff5078 rsi=1cc rdi=16af1e0
+rip=7763135a rsp=16aee28 rbp=1
+iopl=0         nv up ei pl zr na po nc
+cs=33  ss=2b  ds=2b  es=2b  fs=53  gs=2b             efl=246
+
+
+
+## SNAPSHOT 7
+
+### Loaded Modules: 18
+### Size of Executable: 159KB
+### Full Snapshot Size: 27.989MB
+### Call Stack Size: 15
+### Heap Size: A0000B
+
+### Call Stack
+ Child-SP          RetAddr               Call Site
+00 016aee28 000007fe`fcd71e35     ntdll!NtWaitForSingleObject
+01 016aee30 000007fe`fcd71f96     mswsock!_GSHandlerCheck_SEH
+02 016aeeb0 000007fe`ff664efc     mswsock!_GSHandlerCheck_SEH
+03 016af050 000007fe`ff664e7d     ws2_32!DPROVIDER::WSPSelect
+04 016af090 00000001`3f10b259     ws2_32!select
+05 016af190 00000001`3f10b420     myscadacom!OS_DoIo
+06 016af410 00000001`3f10954b     myscadacom!OS_Accept
+07 016af440 00000001`3f04369b     myscadacom!FCGX_Accept_r
+08 016af480 00000001`3f0d10cc     myscadacom
+09 016af880 00000001`3f121456     myscadacom
+0a 016af8b0 000007fe`f9883fef     myscadacom!OS_SetFlags
+0b 016af980 000007fe`f9884196     msvcr110!beginthreadex
+0c 016af9b0 773d652d     msvcr110!endthreadex
+0d 016af9e0 7760c521     kernel32!BaseThreadInitThunk
+0e 016afa10 00000000     ntdll!RtlUserThreadStart
+
+### CPU State
+rax=38e3c0 rbx=7fffffffffffffff rcx=38
+rdx=fffffffffffe4388 rsi=1cc rdi=0
+rip=7763135a rsp=16aee28 rbp=0
+
+iopl=0         nv up ei ng nz ac po cy
+cs=33  ss=2b  ds=2b  es=2b  fs=53  gs=2b             efl=297
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

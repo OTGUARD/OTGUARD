@@ -1,0 +1,2 @@
+stop-process -name windbg
+
